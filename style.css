@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, img {
+    width: 200px;
+    height: 200px;
+}
+
+.test, .test2 {
+    display: flex;
+    justify-content: center;
+}
+
+.test, .fxx {
+    column-gap: 50px;
+}
+
+.fxx {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+    font-size: 58px;
+}
+
+.fgh {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
